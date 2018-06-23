@@ -9,7 +9,7 @@
 <form action="index.php" method="GET">
 	Username: <input type="text" name="login" value="<?php echo $_SESSION['login']; ?>"/>
 	<br />
-	Password: <input type="passwd" name="passwd" value="<?php echo $_SESSION['passwd']; ?>"/>
+	Password: <input type="password" name="passwd" value="<?php echo $_SESSION['passwd']; ?>"/>
 	<br />
 	<input type="submit" name="submit" value="OK" />
 </form>
